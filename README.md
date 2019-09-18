@@ -1,0 +1,1 @@
+# hacktivate_fashion_store
