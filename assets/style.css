@@ -8,11 +8,11 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-ul li {
+.navbar  ul li {
     display: inline-block;
 }
 
-li a {
+.navbar  li a {
     border-top: 2px;
     display: block;
     color: black;
@@ -23,7 +23,10 @@ li a {
     font-weight: bold;
 }
 
-ul {
+/* saya ubah dikit d bagian sini yah bro
+biar gak bentrok ama ul footer */
+
+.navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 3px;
@@ -152,12 +155,19 @@ footer {
 }
 
 .contact {
+   color: #fff;
    float: right;
-   margin-top: 20px;
-   margin-right: 150px; 
-   padding-left: 10px; 
-   border-left: 1px solid white;
-   font-size: 12px;   
+}
+
+.contact ul {
+    display: block;
+    list-style: none;
+}
+
+.contact ul li {
+    border-bottom: 1px solid white;
+    margin-bottom: 5px;
+    padding-right: 225px;
 }
 
 .logo-copyright {

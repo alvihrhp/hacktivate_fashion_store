@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shopping Cart</title>
+    <link href="assets/style-cart/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href=assets/style.css>
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class='navbar'>
+        <div class="border-title">
+                <h2>Hacktivate Fashion Store</h2>
+        </div>
+        <ul>
+            <li><a href="news.asp">Clothes</a></li>
+            <li><a href="contact.asp">Pants</a></li>
+            <li><a href="about.asp">Accessories</a></li>
+        </ul>
+    </div>
+    <section class="cart">
+        <div class="judul">
+            <h1>SHOPPING CART :</h1>
+        </div>
+        <form  action="pengiriman.html" method="POST">
+            <table>
+                <thead class="judul-tabel">
+                    <tr>
+                        <td>Nama Barang</td>
+                        <td>Jumlah</td>
+                        <td>harga</td>
+                        <td>Total</td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr lass="isi-tabel">
+                        <td><img class="gambar" src="assets/Images/Baju-1.jpg" alt="">KAOS PRIA ATASAN FASHION MARCELO BURLON IMPORT PREMIUM QUALITY</td>
+                        <td>2</td>
+                        <td>Rp 285000</td>
+                        <td>Rp 570000</td>
+                    </tr>
+                    <tr>
+                        <td><img class="gambar" src="assets/Images/Celana-3.jpg" alt="">FRANS Celana Jogger Polos Panjang Fashion Pria Model Korea Okechuku - Navy</td>
+                        <td>1</td>
+                        <td>Rp 79000</td>
+                        <td>Rp 79000</td>
+                    </tr>
+                    <tr>
+                        <td><img class="gambar" src="assets/Images/Dompet-1.jpg" alt="">Fashion Dompet Pria Panjang Bahan Kulit Canvas JP09 - Biru</td>
+                        <td>1</td>
+                        <td>Rp 52500</td>
+                        <td>Rp 52500</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h3>Order Total: Rp 701500</h3>
+            <input type="submit" value="Order">    
+        </form>
+    </section>
+    <footer>
+        <div id="atas">
+            <div class="logo-copyright">
+                <span>Hacktivate FS</span>
+            </div>
+            
+            <div class="contact">
+                <ul>
+                    <li>Return Policy</li>
+                    <li>Terms & Conditions</li>
+                    <li>FAQ</li>
+                    <li>Payment Confirmation</li>
+                </ul>
+            </div>
+        </div>
+        <div id="bawah">
+            <span>copyright</span>
+        </div>
+    </footer>
+</body>
+</html>
