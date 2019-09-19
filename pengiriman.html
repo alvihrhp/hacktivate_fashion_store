@@ -8,9 +8,11 @@
     <link rel="stylesheet" href="assets/style-product-details/hendy_style.css" type="text/css">
     <link rel="stylesheet" href="assets/style.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/style-pembayaran/style.css">
 </head>
-<body>
-    <div class='navbar'>
+<body id="page-container">
+    <div id="content-wrap">
+        <div class='navbar'>
             <div class="border-title">
                     <h2>Hacktivate Fashion Store</a></h2>
             </div>
@@ -22,15 +24,30 @@
                 <li><a href="register.html">Register</a></li>
             </ul>
         </div>
-    <section>
-        
-    </section>
-    <footer>
+    </div>
+    <section class="Pembayaran">
+            <form action="berhasil.html" method="post">
+                <label for="metode-pembayaran">Metode Pembayaran :</label>
+                <br>
+                <select name="metode-pembayaran" id="metode-pembayaran">
+                    <option value="#">Transfer antar bank</option>
+                    <option value="#">Kartu kredit</option>
+                </select>
+                <br>
+                <label for="bank">Pilih Bank :</label>
+                <br>
+                <input type="radio" name="bank" value="BNI"> BNI<br>
+                <input type="radio" name="bank" value="Mandiri"> Mandiri<br>
+                <input type="radio" name="bank" value="BCA"> BCA<br>
+
+                <input class="button" type="submit" value="Proses">
+            </form>
+        </section>
+    <footer class="percobaan">
         <div id="atas">
             <div class="logo-copyright">
                 <span>Hacktivate FS</span>
             </div>
-            
             <div class="contact">
                 <ul>
                     <li>Return Policy</li>
@@ -44,5 +61,6 @@
             <span>copyright</span>
         </div>
     </footer>
+    
 </body>
 </html>
