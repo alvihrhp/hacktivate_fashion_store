@@ -204,9 +204,6 @@ footer {
     background-color: #000;
     color: white;
     padding: 20px 40px;
-    
-     
-
 }
 
 #atas {
@@ -235,8 +232,6 @@ footer {
     padding: 40px 0;
     float: left;
     font-size: 40px;
-    
-    
 }
 
 #bawah {
@@ -248,11 +243,9 @@ footer {
 #form-pendaftaran {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 20%;
+    width: 500px;
     margin: 6% 200px;
-  
-    
-  }
+}
   
 #form-pendaftaran:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -264,6 +257,13 @@ footer {
 
 .registrasi label, input {
     margin-bottom: 20px;
+    height: 30px;
+    width: 240px;
+}
+
+.registrasi h1 {
+    padding-bottom: 20px;
+    font-weight: bold;
 }
 
 .button {
@@ -282,6 +282,17 @@ footer {
 /* sukses.html   */
 .berhasil {
     margin: 100px;
+}
+
+.outside-form {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.title-site {
+    text-decoration: none;
+    color: black;
 }
 
   
