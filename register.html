@@ -13,6 +13,12 @@
         <div class="border-title">
                 <h2>Hacktivate Fashion Store</h2>
         </div>
+        <ul>
+            <li><a href="Product-Clothes.html">Clothes</a></li>
+            <li><a href="Product-Pants.html">Pants</a></li>
+            <li><a href="Product-Accessories.html">Accessories</a></li>
+            <li><a href="register.html">Register</a></li>
+        </ul>
     </div>
     <!-- <div class="continer"> -->
         <div id="form-pendaftaran">
@@ -21,23 +27,23 @@
                 <form action="succsess.html" method="post">
                     <label for="nama">Nama :</label>
                     <br>
-                    <input id="nama" name="nama" type="text">
+                    <input id="nama" name="nama" type="text" required>
                     <br>
                     <label for="email">email :</label>
                     <br>
-                    <input id="email" name="email" type="email">
+                    <input id="email" name="email" type="email" required>
                     <br>
                     <label for="ponsel'">Nomor Ponsel :</label>
                     <br>
-                    <input id="ponsel" name="ponsel" type="text" minlength="12" pattern="[0-9]+">
+                    <input id="ponsel" name="ponsel" type="text" minlength="12" pattern="[0-9]+" required>
                     <br>
                     <label for="userName">Username :</label>
                     <br>
-                    <input id="userName" name="userName" type="text" minlength="5" maxlength="20" pattern="[a-zA-Z0-9]+">
+                    <input id="userName" name="userName" type="text" minlength="5" maxlength="20" pattern="[a-zA-Z0-9]+" required>
                     <br>
                     <label for="password">password :</label>
                     <br>
-                    <input id="password" name="password" type="password" minlength="8" pattern="[a-zA-Z0-9]+">
+                    <input id="password" name="password" type="password" minlength="8" pattern="[a-zA-Z0-9]+" required>
                     <br>
                     <input type="submit" value="Registrasi">
                 </form>
